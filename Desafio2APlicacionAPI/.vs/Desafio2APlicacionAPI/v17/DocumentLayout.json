@@ -30,12 +30,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 4,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -83,7 +79,7 @@
               "RelativeDocumentMoniker": "Desafio2APlicacionAPI\\Controllers\\EventosController.cs",
               "ToolTip": "C:\\Users\\carlo\\OneDrive\\Escritorio\\DES\\DESAFIO2DES\\Desafio2APlicacionAPI\\Desafio2APlicacionAPI\\Controllers\\EventosController.cs",
               "RelativeToolTip": "Desafio2APlicacionAPI\\Controllers\\EventosController.cs",
-              "ViewState": "AQIAAHEAAAAAAAAAAAA0wIwAAAAAAAAA",
+              "ViewState": "AQIAAK4AAAAAAAAAAAA0wNcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-18T05:22:17.102Z",
               "EditorCaption": ""

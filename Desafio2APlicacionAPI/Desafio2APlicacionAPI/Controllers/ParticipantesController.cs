@@ -121,6 +121,42 @@ namespace Desafio2APlicacionAPI.Controllers
 
             return NoContent();
         }
+        public async Task<IActionResult> PutParticipanteT(int id, Participante participante)
+        {
+            if (id != participante.ParticipanteId)
+            {
+                return BadRequest("El ID no coincide.");
+            }
+
+            // Desconecta cualquier instancia previa del contexto
+            var participanteExistente = await _context.Participante.AsNoTracking().FirstOrDefaultAsync(p => p.ParticipanteId == id);
+            if (participanteExistente == null)
+            {
+                return NotFound();
+            }
+
+            // Marca la entidad como modificada
+            _context.Entry(participante).State = EntityState.Modified;
+
+            try
+            {
+                await _context.SaveChangesAsync();
+            }
+            catch (DbUpdateConcurrencyException)
+            {
+                if (!ParticipanteExists(id))
+                {
+                    return NotFound();
+                }
+                else
+                {
+                    throw;
+                }
+            }
+
+            return NoContent();
+        }
+
 
         // POST: api/Participantes
         [HttpPost]
@@ -134,6 +170,20 @@ namespace Desafio2APlicacionAPI.Controllers
 
             return CreatedAtAction("GetParticipante", new { id = participante.ParticipanteId }, participante);
         }
+        [HttpPost]
+        public async Task<ActionResult<Participante>> PostParticipanteT(Participante participante)
+        {
+            if (string.IsNullOrEmpty(participante.Nombre))
+            {
+                return BadRequest("El nombre es obligatorio.");
+            }
+
+            _context.Participante.Add(participante);
+            await _context.SaveChangesAsync();
+
+            return CreatedAtAction(nameof(GetParticipanteT), new { id = participante.ParticipanteId }, participante);
+        }
+
 
         // DELETE: api/Participantes/5
         [HttpDelete("{id}")]
@@ -152,6 +202,20 @@ namespace Desafio2APlicacionAPI.Controllers
             string cacheKey = $"participante_{id}";
             await db.KeyDeleteAsync(cacheKey);
             await db.KeyDeleteAsync("participantesList");
+
+            return NoContent();
+        }
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> DeleteParticipanteT(int id)
+        {
+            var participante = await _context.Participante.FindAsync(id);
+            if (participante == null)
+            {
+                return NotFound();
+            }
+
+            _context.Participante.Remove(participante);
+            await _context.SaveChangesAsync();
 
             return NoContent();
         }

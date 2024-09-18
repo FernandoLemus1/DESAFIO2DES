@@ -20,6 +20,11 @@ namespace Desafio2APlicacionAPI.Controllers
             _context = context ?? throw new ArgumentNullException(nameof(context));
             _redis = redis ?? throw new ArgumentNullException(nameof(redis));
         }
+        public ParticipantesController(AppDbContext context)
+        {
+            _context = context ?? throw new ArgumentNullException(nameof(context));
+           
+        }
 
         // GET: api/Participantes
         [HttpGet]
@@ -36,6 +41,18 @@ namespace Desafio2APlicacionAPI.Controllers
 
             var participantes = await _context.Participante.ToListAsync();
             await db.StringSetAsync(cacheKey, JsonSerializer.Serialize(participantes), TimeSpan.FromMinutes(10));
+            return participantes;
+        }
+        public async Task<ActionResult<IEnumerable<Participante>>> GetParticipantesT()
+        {
+           
+            string cacheKey = "participantesList";
+           
+
+          
+
+            var participantes = await _context.Participante.ToListAsync();
+          
             return participantes;
         }
 
@@ -61,7 +78,19 @@ namespace Desafio2APlicacionAPI.Controllers
             await db.StringSetAsync(cacheKey, JsonSerializer.Serialize(participante), TimeSpan.FromMinutes(10));
             return participante;
         }
+        // GET: api/Participantes/5
+        [HttpGet("{id}")]
+        public async Task<ActionResult<Participante>> GetParticipanteT(int id)
+        {
+         
 
+            var participante = await _context.Participante.FindAsync(id);
+            if (participante == null)
+            {
+                return NotFound();
+            }
+            return participante;
+        }
         // PUT: api/Participantes/5
         [HttpPut("{id}")]
         public async Task<IActionResult> PutParticipante(int id, Participante participante)

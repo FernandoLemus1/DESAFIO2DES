@@ -1,25 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\carlo\\OneDrive\\Escritorio\\DES\\DESAFIO2DES\\Desafio2APlicacionAPI\\Desafio2APlicacionAPI\\Desafio2APlicacionAPI.csproj": {}
+    "C:\\Users\\Fernando\\Documents\\Tareas Universidad\\2024\\DES\\PArcial 2\\DESAFIO2DES\\Desafio2APlicacionAPI\\Desafio2APlicacionAPI\\Desafio2APlicacionAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\carlo\\OneDrive\\Escritorio\\DES\\DESAFIO2DES\\Desafio2APlicacionAPI\\Desafio2APlicacionAPI\\Desafio2APlicacionAPI.csproj": {
+    "C:\\Users\\Fernando\\Documents\\Tareas Universidad\\2024\\DES\\PArcial 2\\DESAFIO2DES\\Desafio2APlicacionAPI\\Desafio2APlicacionAPI\\Desafio2APlicacionAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\carlo\\OneDrive\\Escritorio\\DES\\DESAFIO2DES\\Desafio2APlicacionAPI\\Desafio2APlicacionAPI\\Desafio2APlicacionAPI.csproj",
+        "projectUniqueName": "C:\\Users\\Fernando\\Documents\\Tareas Universidad\\2024\\DES\\PArcial 2\\DESAFIO2DES\\Desafio2APlicacionAPI\\Desafio2APlicacionAPI\\Desafio2APlicacionAPI.csproj",
         "projectName": "Desafio2APlicacionAPI",
-        "projectPath": "C:\\Users\\carlo\\OneDrive\\Escritorio\\DES\\DESAFIO2DES\\Desafio2APlicacionAPI\\Desafio2APlicacionAPI\\Desafio2APlicacionAPI.csproj",
-        "packagesPath": "C:\\Users\\carlo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\carlo\\OneDrive\\Escritorio\\DES\\DESAFIO2DES\\Desafio2APlicacionAPI\\Desafio2APlicacionAPI\\obj\\",
+        "projectPath": "C:\\Users\\Fernando\\Documents\\Tareas Universidad\\2024\\DES\\PArcial 2\\DESAFIO2DES\\Desafio2APlicacionAPI\\Desafio2APlicacionAPI\\Desafio2APlicacionAPI.csproj",
+        "packagesPath": "C:\\Users\\Fernando\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Fernando\\Documents\\Tareas Universidad\\2024\\DES\\PArcial 2\\DESAFIO2DES\\Desafio2APlicacionAPI\\Desafio2APlicacionAPI\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\carlo\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Fernando\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -63,7 +58,7 @@
               "target": "Package",
               "version": "[8.0.8, )"
             },
-            "Microsoft.EntityFrameworkCore": {
+            "Microsoft.EntityFrameworkCore.InMemory": {
               "target": "Package",
               "version": "[8.0.8, )"
             },
@@ -84,6 +79,10 @@
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[8.0.5, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.20.72, )"
             },
             "Ocelot": {
               "target": "Package",

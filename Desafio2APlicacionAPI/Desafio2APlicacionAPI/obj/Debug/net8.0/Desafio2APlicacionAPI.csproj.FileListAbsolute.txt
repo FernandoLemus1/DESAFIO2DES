@@ -583,3 +583,6 @@ C:\Users\Fernando\Documents\Tareas Universidad\2024\DES\PArcial 2\DESAFIO2DES\De
 C:\Users\Fernando\Documents\Tareas Universidad\2024\DES\PArcial 2\DESAFIO2DES\Desafio2APlicacionAPI\Desafio2APlicacionAPI\bin\Debug\net8.0\Castle.Core.dll
 C:\Users\Fernando\Documents\Tareas Universidad\2024\DES\PArcial 2\DESAFIO2DES\Desafio2APlicacionAPI\Desafio2APlicacionAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.InMemory.dll
 C:\Users\Fernando\Documents\Tareas Universidad\2024\DES\PArcial 2\DESAFIO2DES\Desafio2APlicacionAPI\Desafio2APlicacionAPI\bin\Debug\net8.0\Moq.dll
+C:\Users\carlo\OneDrive\Escritorio\DES\DESAFIO2DES\Desafio2APlicacionAPI\Desafio2APlicacionAPI\bin\Debug\net8.0\Castle.Core.dll
+C:\Users\carlo\OneDrive\Escritorio\DES\DESAFIO2DES\Desafio2APlicacionAPI\Desafio2APlicacionAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\Users\carlo\OneDrive\Escritorio\DES\DESAFIO2DES\Desafio2APlicacionAPI\Desafio2APlicacionAPI\bin\Debug\net8.0\Moq.dll

@@ -16,6 +16,6 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = AplicacionAPi.Test
-build_property.ProjectDir = C:\Users\Fernando\Documents\Tareas Universidad\2024\DES\PArcial 2\DESAFIO2DES\Desafio2APlicacionAPI\AplicacionAPi.Test\
+build_property.ProjectDir = C:\Users\carlo\OneDrive\Escritorio\DES\DESAFIO2DES\Desafio2APlicacionAPI\AplicacionAPi.Test\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

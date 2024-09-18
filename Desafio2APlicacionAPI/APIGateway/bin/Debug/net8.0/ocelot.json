@@ -1,0 +1,276 @@
+{
+  "Routes": [
+    {
+      "DownstreamPathTemplate": "/",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5073
+        }
+      ],
+      "UpstreamPathTemplate": "/",
+      "UpstreamHttpMethod": [ "Get" ]
+    },
+    // Rutas para Eventos
+    {
+      "DownstreamPathTemplate": "/api/eventos",
+      "UpstreamPathTemplate": "/eventos",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5073
+        }
+      ],
+      "UpstreamHttpMethod": [ "Get" ],
+      "DownstreamHttpMethod": "Get",
+      "SwaggerKey": "Eventos"
+    },
+    {
+      "DownstreamPathTemplate": "/api/eventos/{id}",
+      "UpstreamPathTemplate": "/eventos/{id}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5073
+        }
+      ],
+      "UpstreamHttpMethod": [ "Get" ],
+      "DownstreamHttpMethod": "Get",
+      "SwaggerKey": "Eventos"
+    },
+    {
+      "DownstreamPathTemplate": "/api/eventos",
+      "UpstreamPathTemplate": "/eventos",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5073
+        }
+      ],
+      "UpstreamHttpMethod": [ "Post" ],
+      "DownstreamHttpMethod": "Post",
+      "SwaggerKey": "Eventos"
+    },
+    {
+      "DownstreamPathTemplate": "/api/eventos/{id}",
+      "UpstreamPathTemplate": "/eventos/{id}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5073
+        }
+      ],
+      "UpstreamHttpMethod": [ "Put" ],
+      "DownstreamHttpMethod": "Put",
+      "SwaggerKey": "Eventos"
+    },
+    {
+      "DownstreamPathTemplate": "/api/eventos/{id}",
+      "UpstreamPathTemplate": "/eventos/{id}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5073
+        }
+      ],
+      "UpstreamHttpMethod": [ "Delete" ],
+      "DownstreamHttpMethod": "Delete",
+      "SwaggerKey": "Eventos"
+    },
+
+    // Rutas para Participantes
+    {
+      "DownstreamPathTemplate": "/api/participantes",
+      "UpstreamPathTemplate": "/participantes",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5073
+        }
+      ],
+      "UpstreamHttpMethod": [ "Get" ],
+      "DownstreamHttpMethod": "Get",
+      "SwaggerKey": "Participantes"
+    },
+    {
+      "DownstreamPathTemplate": "/api/participantes/{id}",
+      "UpstreamPathTemplate": "/participantes/{id}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5073
+        }
+      ],
+      "UpstreamHttpMethod": [ "Get" ],
+      "DownstreamHttpMethod": "Get",
+      "SwaggerKey": "Participantes"
+    },
+    {
+      "DownstreamPathTemplate": "/api/participantes",
+      "UpstreamPathTemplate": "/participantes",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5073
+        }
+      ],
+      "UpstreamHttpMethod": [ "Post" ],
+      "DownstreamHttpMethod": "Post",
+      "SwaggerKey": "Participantes"
+    },
+    {
+      "DownstreamPathTemplate": "/api/participantes/{id}",
+      "UpstreamPathTemplate": "/participantes/{id}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5073
+        }
+      ],
+      "UpstreamHttpMethod": [ "Put" ],
+      "DownstreamHttpMethod": "Put",
+      "SwaggerKey": "Participantes"
+    },
+    {
+      "DownstreamPathTemplate": "/api/participantes/{id}",
+      "UpstreamPathTemplate": "/participantes/{id}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5073
+        }
+      ],
+      "UpstreamHttpMethod": [ "Delete" ],
+      "DownstreamHttpMethod": "Delete",
+      "SwaggerKey": "Participantes"
+    },
+
+    // Rutas para Organizadores
+    {
+      "DownstreamPathTemplate": "/api/organizadores",
+      "UpstreamPathTemplate": "/organizadores",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5073
+        }
+      ],
+      "UpstreamHttpMethod": [ "Get" ],
+      "DownstreamHttpMethod": "Get",
+      "SwaggerKey": "Organizadores"
+    },
+    {
+      "DownstreamPathTemplate": "/api/organizadores/{id}",
+      "UpstreamPathTemplate": "/organizadores/{id}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5073
+        }
+      ],
+      "UpstreamHttpMethod": [ "Get" ],
+      "DownstreamHttpMethod": "Get",
+      "SwaggerKey": "Organizadores"
+    },
+    {
+      "DownstreamPathTemplate": "/api/organizadores",
+      "UpstreamPathTemplate": "/organizadores",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5073
+        }
+      ],
+      "UpstreamHttpMethod": [ "Post" ],
+      "DownstreamHttpMethod": "Post",
+      "SwaggerKey": "Organizadores"
+    },
+    {
+      "DownstreamPathTemplate": "/api/organizadores/{id}",
+      "UpstreamPathTemplate": "/organizadores/{id}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5073
+        }
+      ],
+      "UpstreamHttpMethod": [ "Put" ],
+      "DownstreamHttpMethod": "Put",
+      "SwaggerKey": "Organizadores"
+    },
+    {
+      "DownstreamPathTemplate": "/api/organizadores/{id}",
+      "UpstreamPathTemplate": "/organizadores/{id}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5073
+        }
+      ],
+      "UpstreamHttpMethod": [ "Delete" ],
+      "DownstreamHttpMethod": "Delete",
+      "SwaggerKey": "Organizadores"
+    }
+  ],
+  "GlobalConfiguration": {
+    "BaseUrl": "https://localhost:5000",
+    "FileCacheOptions": {
+      "TtlSeconds": 60,
+      "Region": "default"
+    },
+    "SwaggerEndPoints": [
+      {
+        "Key": "Eventos",
+        "Config": [
+          {
+            "Name": "Eventos API",
+            "Scheme": "https",
+            "Host": "localhost",
+            "Port": 5073,
+            "Path": "/swagger/v1/swagger.json"
+          }
+        ]
+      },
+      {
+        "Key": "Participantes",
+        "Config": [
+          {
+            "Name": "Participantes API",
+            "Scheme": "https",
+            "Host": "localhost",
+            "Port": 5073,
+            "Path": "/swagger/v1/swagger.json"
+          }
+        ]
+      },
+      {
+        "Key": "Organizadores",
+        "Config": [
+          {
+            "Name": "Organizadores API",
+            "Scheme": "https",
+            "Host": "localhost",
+            "Port": 5073,
+            "Path": "/swagger/v1/swagger.json"
+          }
+        ]
+      }
+    ]
+  }
+}

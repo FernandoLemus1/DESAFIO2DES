@@ -43,18 +43,15 @@ namespace Desafio2APlicacionAPI.Controllers
             await db.StringSetAsync(cacheKey, JsonSerializer.Serialize(participantes), TimeSpan.FromMinutes(10));
             return participantes;
         }
+
+        [HttpGet]
+        [Route("api/ParticipantesT")] // Ruta única para GetParticipantesT
         public async Task<ActionResult<IEnumerable<Participante>>> GetParticipantesT()
         {
-           
-            string cacheKey = "participantesList";
-           
-
-          
-
             var participantes = await _context.Participante.ToListAsync();
-          
             return participantes;
         }
+
 
         // GET: api/Participantes/5
         [HttpGet("{id}")]

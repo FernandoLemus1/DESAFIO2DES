@@ -1,22 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Fernando\\Documents\\Tareas Universidad\\2024\\DES\\PArcial 2\\DESAFIO2DES\\Desafio2APlicacionAPI\\",
+  "WorkspaceRootPath": "C:\\Users\\carlo\\OneDrive\\Escritorio\\DES\\DESAFIO2DES\\Desafio2APlicacionAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{83297E85-1DB1-43E6-86FC-1F8BD19D7CC0}|AplicacionAPi.Test\\AplicacionAPi.Test.csproj|c:\\users\\fernando\\documents\\tareas universidad\\2024\\des\\parcial 2\\desafio2des\\desafio2aplicacionapi\\aplicacionapi.test\\participantecontrollert.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{83297E85-1DB1-43E6-86FC-1F8BD19D7CC0}|AplicacionAPi.Test\\AplicacionAPi.Test.csproj|solutionrelative:aplicacionapi.test\\participantecontrollert.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{314068E4-4A8A-47A0-88BA-650A857BD52E}|APIGateway\\APIGateway.csproj|c:\\users\\carlo\\onedrive\\escritorio\\des\\desafio2des\\desafio2aplicacionapi\\apigateway\\ocelot.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{314068E4-4A8A-47A0-88BA-650A857BD52E}|APIGateway\\APIGateway.csproj|solutionrelative:apigateway\\ocelot.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A30A7D49-856D-460A-A31A-B5C0D548F5B9}|Desafio2APlicacionAPI\\Desafio2APlicacionAPI.csproj|c:\\users\\fernando\\documents\\tareas universidad\\2024\\des\\parcial 2\\desafio2des\\desafio2aplicacionapi\\desafio2aplicacionapi\\controllers\\participantescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{314068E4-4A8A-47A0-88BA-650A857BD52E}|APIGateway\\APIGateway.csproj|c:\\users\\carlo\\onedrive\\escritorio\\des\\desafio2des\\desafio2aplicacionapi\\apigateway\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{314068E4-4A8A-47A0-88BA-650A857BD52E}|APIGateway\\APIGateway.csproj|solutionrelative:apigateway\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A30A7D49-856D-460A-A31A-B5C0D548F5B9}|Desafio2APlicacionAPI\\Desafio2APlicacionAPI.csproj|c:\\users\\carlo\\onedrive\\escritorio\\des\\desafio2des\\desafio2aplicacionapi\\desafio2aplicacionapi\\controllers\\eventoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A30A7D49-856D-460A-A31A-B5C0D548F5B9}|Desafio2APlicacionAPI\\Desafio2APlicacionAPI.csproj|solutionrelative:desafio2aplicacionapi\\controllers\\eventoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A30A7D49-856D-460A-A31A-B5C0D548F5B9}|Desafio2APlicacionAPI\\Desafio2APlicacionAPI.csproj|c:\\users\\carlo\\onedrive\\escritorio\\des\\desafio2des\\desafio2aplicacionapi\\desafio2aplicacionapi\\controllers\\participantescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A30A7D49-856D-460A-A31A-B5C0D548F5B9}|Desafio2APlicacionAPI\\Desafio2APlicacionAPI.csproj|solutionrelative:desafio2aplicacionapi\\controllers\\participantescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A30A7D49-856D-460A-A31A-B5C0D548F5B9}|Desafio2APlicacionAPI\\Desafio2APlicacionAPI.csproj|c:\\users\\fernando\\documents\\tareas universidad\\2024\\des\\parcial 2\\desafio2des\\desafio2aplicacionapi\\desafio2aplicacionapi\\models\\participante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A30A7D49-856D-460A-A31A-B5C0D548F5B9}|Desafio2APlicacionAPI\\Desafio2APlicacionAPI.csproj|solutionrelative:desafio2aplicacionapi\\models\\participante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A30A7D49-856D-460A-A31A-B5C0D548F5B9}|Desafio2APlicacionAPI\\Desafio2APlicacionAPI.csproj|c:\\users\\fernando\\documents\\tareas universidad\\2024\\des\\parcial 2\\desafio2des\\desafio2aplicacionapi\\desafio2aplicacionapi\\models\\evento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A30A7D49-856D-460A-A31A-B5C0D548F5B9}|Desafio2APlicacionAPI\\Desafio2APlicacionAPI.csproj|solutionrelative:desafio2aplicacionapi\\models\\evento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A30A7D49-856D-460A-A31A-B5C0D548F5B9}|Desafio2APlicacionAPI\\Desafio2APlicacionAPI.csproj|c:\\users\\carlo\\onedrive\\escritorio\\des\\desafio2des\\desafio2aplicacionapi\\desafio2aplicacionapi\\controllers\\organizadorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A30A7D49-856D-460A-A31A-B5C0D548F5B9}|Desafio2APlicacionAPI\\Desafio2APlicacionAPI.csproj|solutionrelative:desafio2aplicacionapi\\controllers\\organizadorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,64 +30,75 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ParticipanteControllerT.cs",
-              "DocumentMoniker": "C:\\Users\\Fernando\\Documents\\Tareas Universidad\\2024\\DES\\PArcial 2\\DESAFIO2DES\\Desafio2APlicacionAPI\\AplicacionAPi.Test\\ParticipanteControllerT.cs",
-              "RelativeDocumentMoniker": "AplicacionAPi.Test\\ParticipanteControllerT.cs",
-              "ToolTip": "C:\\Users\\Fernando\\Documents\\Tareas Universidad\\2024\\DES\\PArcial 2\\DESAFIO2DES\\Desafio2APlicacionAPI\\AplicacionAPi.Test\\ParticipanteControllerT.cs*",
-              "RelativeToolTip": "AplicacionAPi.Test\\ParticipanteControllerT.cs*",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAqwCIAAABFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T01:42:17.332Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ParticipantesController.cs",
-              "DocumentMoniker": "C:\\Users\\Fernando\\Documents\\Tareas Universidad\\2024\\DES\\PArcial 2\\DESAFIO2DES\\Desafio2APlicacionAPI\\Desafio2APlicacionAPI\\Controllers\\ParticipantesController.cs",
-              "RelativeDocumentMoniker": "Desafio2APlicacionAPI\\Controllers\\ParticipantesController.cs",
-              "ToolTip": "C:\\Users\\Fernando\\Documents\\Tareas Universidad\\2024\\DES\\PArcial 2\\DESAFIO2DES\\Desafio2APlicacionAPI\\Desafio2APlicacionAPI\\Controllers\\ParticipantesController.cs*",
-              "RelativeToolTip": "Desafio2APlicacionAPI\\Controllers\\ParticipantesController.cs*",
-              "ViewState": "AQIAAG4AAAAAAAAAAADgv1IAAABGAAAA",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\carlo\\OneDrive\\Escritorio\\DES\\DESAFIO2DES\\Desafio2APlicacionAPI\\APIGateway\\Program.cs",
+              "RelativeDocumentMoniker": "APIGateway\\Program.cs",
+              "ToolTip": "C:\\Users\\carlo\\OneDrive\\Escritorio\\DES\\DESAFIO2DES\\Desafio2APlicacionAPI\\APIGateway\\Program.cs",
+              "RelativeToolTip": "APIGateway\\Program.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAWwBIAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T01:26:36.604Z",
+              "WhenOpened": "2024-09-18T05:28:59.795Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Evento.cs",
-              "DocumentMoniker": "C:\\Users\\Fernando\\Documents\\Tareas Universidad\\2024\\DES\\PArcial 2\\DESAFIO2DES\\Desafio2APlicacionAPI\\Desafio2APlicacionAPI\\Models\\Evento.cs",
-              "RelativeDocumentMoniker": "Desafio2APlicacionAPI\\Models\\Evento.cs",
-              "ToolTip": "C:\\Users\\Fernando\\Documents\\Tareas Universidad\\2024\\DES\\PArcial 2\\DESAFIO2DES\\Desafio2APlicacionAPI\\Desafio2APlicacionAPI\\Models\\Evento.cs",
-              "RelativeToolTip": "Desafio2APlicacionAPI\\Models\\Evento.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAFAAAA",
+              "Title": "ParticipantesController.cs",
+              "DocumentMoniker": "C:\\Users\\carlo\\OneDrive\\Escritorio\\DES\\DESAFIO2DES\\Desafio2APlicacionAPI\\Desafio2APlicacionAPI\\Controllers\\ParticipantesController.cs",
+              "RelativeDocumentMoniker": "Desafio2APlicacionAPI\\Controllers\\ParticipantesController.cs",
+              "ToolTip": "C:\\Users\\carlo\\OneDrive\\Escritorio\\DES\\DESAFIO2DES\\Desafio2APlicacionAPI\\Desafio2APlicacionAPI\\Controllers\\ParticipantesController.cs",
+              "RelativeToolTip": "Desafio2APlicacionAPI\\Controllers\\ParticipantesController.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAADwvxAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-17T03:04:22.2Z",
+              "WhenOpened": "2024-09-18T05:22:44.324Z",
               "EditorCaption": ""
-            }
-          ]
-        },
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "OrganizadoresController.cs",
+              "DocumentMoniker": "C:\\Users\\carlo\\OneDrive\\Escritorio\\DES\\DESAFIO2DES\\Desafio2APlicacionAPI\\Desafio2APlicacionAPI\\Controllers\\OrganizadoresController.cs",
+              "RelativeDocumentMoniker": "Desafio2APlicacionAPI\\Controllers\\OrganizadoresController.cs",
+              "ToolTip": "C:\\Users\\carlo\\OneDrive\\Escritorio\\DES\\DESAFIO2DES\\Desafio2APlicacionAPI\\Desafio2APlicacionAPI\\Controllers\\OrganizadoresController.cs",
+              "RelativeToolTip": "Desafio2APlicacionAPI\\Controllers\\OrganizadoresController.cs",
+              "ViewState": "AQIAAHIAAAAAAAAAAAAIwIwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T05:22:35.532Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Participante.cs",
-              "DocumentMoniker": "C:\\Users\\Fernando\\Documents\\Tareas Universidad\\2024\\DES\\PArcial 2\\DESAFIO2DES\\Desafio2APlicacionAPI\\Desafio2APlicacionAPI\\Models\\Participante.cs",
-              "RelativeDocumentMoniker": "Desafio2APlicacionAPI\\Models\\Participante.cs",
-              "ToolTip": "C:\\Users\\Fernando\\Documents\\Tareas Universidad\\2024\\DES\\PArcial 2\\DESAFIO2DES\\Desafio2APlicacionAPI\\Desafio2APlicacionAPI\\Models\\Participante.cs",
-              "RelativeToolTip": "Desafio2APlicacionAPI\\Models\\Participante.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "EventosController.cs",
+              "DocumentMoniker": "C:\\Users\\carlo\\OneDrive\\Escritorio\\DES\\DESAFIO2DES\\Desafio2APlicacionAPI\\Desafio2APlicacionAPI\\Controllers\\EventosController.cs",
+              "RelativeDocumentMoniker": "Desafio2APlicacionAPI\\Controllers\\EventosController.cs",
+              "ToolTip": "C:\\Users\\carlo\\OneDrive\\Escritorio\\DES\\DESAFIO2DES\\Desafio2APlicacionAPI\\Desafio2APlicacionAPI\\Controllers\\EventosController.cs",
+              "RelativeToolTip": "Desafio2APlicacionAPI\\Controllers\\EventosController.cs",
+              "ViewState": "AQIAAHEAAAAAAAAAAAA0wIwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T01:45:01.327Z",
+              "WhenOpened": "2024-09-18T05:22:17.102Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ocelot.json",
+              "DocumentMoniker": "C:\\Users\\carlo\\OneDrive\\Escritorio\\DES\\DESAFIO2DES\\Desafio2APlicacionAPI\\APIGateway\\ocelot.json",
+              "RelativeDocumentMoniker": "APIGateway\\ocelot.json",
+              "ToolTip": "C:\\Users\\carlo\\OneDrive\\Escritorio\\DES\\DESAFIO2DES\\Desafio2APlicacionAPI\\APIGateway\\ocelot.json",
+              "RelativeToolTip": "APIGateway\\ocelot.json",
+              "ViewState": "AQIAAGMAAAAAAAAAAAAAAGUAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-18T04:56:22.11Z",
               "EditorCaption": ""
             }
           ]

@@ -197,5 +197,5 @@
     }
   },
   "type": "object",
-  "SourceSegments": "C:\\Users\\Fernando\\.nuget\\packages\\aspire.stackexchange.redis\\8.2.0\\ConfigurationSchema.json;C:\\Users\\Fernando\\.nuget\\packages\\aspire.stackexchange.redis.outputcaching\\8.2.0\\ConfigurationSchema.json"
+  "SourceSegments": "C:\\Users\\carlo\\.nuget\\packages\\aspire.stackexchange.redis\\8.2.0\\ConfigurationSchema.json;C:\\Users\\carlo\\.nuget\\packages\\aspire.stackexchange.redis.outputcaching\\8.2.0\\ConfigurationSchema.json"
 }

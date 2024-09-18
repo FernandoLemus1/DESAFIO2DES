@@ -111,6 +111,8 @@ namespace Desafio2APlicacionAPI.Controllers
 
             return NoContent();
         }
+
+        [HttpGet]
         public async Task<IActionResult> PutEventoT(int id, Evento participante)
         {
             if (id != participante.EventoId)

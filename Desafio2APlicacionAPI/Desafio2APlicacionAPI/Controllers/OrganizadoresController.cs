@@ -26,18 +26,27 @@ namespace Desafio2APlicacionAPI.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Organizador>>> GetOrganizadores()
         {
-            var db = _redis.GetDatabase();
-            string cacheKey = "organizadoresList";
-            var organizadoresCache = await db.StringGetAsync(cacheKey);
-
-            if (!organizadoresCache.IsNullOrEmpty)
+            try
             {
-                return JsonSerializer.Deserialize<List<Organizador>>(organizadoresCache);
+                var db = _redis.GetDatabase();
+                string cacheKey = "organizadoresList";
+                var organizadoresCache = await db.StringGetAsync(cacheKey);
+
+                if (!organizadoresCache.IsNullOrEmpty)
+                {
+                    return JsonSerializer.Deserialize<List<Organizador>>(organizadoresCache);
+                }
+
+                var organizadores = await _context.Organizador.ToListAsync();
+                await db.StringSetAsync(cacheKey, JsonSerializer.Serialize(organizadores), TimeSpan.FromMinutes(10));
+                return organizadores;
+            }
+            catch (Exception ex)
+            {
+                // Log el error si es necesario y retorna un código de error adecuado
+                return StatusCode(500, "Error en el servidor" +ex.Message);
             }
 
-            var organizadores = await _context.Organizador.ToListAsync();
-            await db.StringSetAsync(cacheKey, JsonSerializer.Serialize(organizadores), TimeSpan.FromMinutes(10));
-            return organizadores;
         }
 
         // GET: api/Organizadores/5

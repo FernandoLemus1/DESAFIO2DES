@@ -4,20 +4,19 @@ services:
   api:
     build:
       context: .
-      dockerfile: API/Dockerfile
+      dockerfile: Dockerfile
     ports:
-      - "5000:80"
+      - "5073:8080"
     depends_on:
       - db
-      - redis
     environment:
-      - ConnectionStrings__DefaultConnection=Server=db;Database=YourDatabase;User Id=sa;Password=Admin123!
-      - Redis__ConnectionString=redis:6379
+      - ASPNETCORE_URLS=http://+:8080
+      - ConnectionStrings__DefaultConnection=Server=db;Database=DesafioDB;User Id=sa;Password=Admin123!
 
   gateway:
     build:
-      context: .
-      dockerfile: APIGateway/Dockerfile
+      context: ../APIGateway
+      dockerfile: Dockerfile
     ports:
       - "5001:80"
     depends_on:
@@ -34,11 +33,6 @@ services:
       - "1433:1433"
     volumes:
       - sqlserver-data:/var/opt/mssql
-
-  redis:
-    image: redis:alpine
-    ports:
-      - "6379:6379"
 
 volumes:
   sqlserver-data:

@@ -1,3 +1,11 @@
 .vs/
-/bin
-/obj
+bin/
+
+
+# Ignorar carpetas de compilación
+bin/
+obj/
+
+# Ignorar archivos temporales
+*.log
+*.tmp

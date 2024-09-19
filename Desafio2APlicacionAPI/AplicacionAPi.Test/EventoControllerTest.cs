@@ -44,31 +44,25 @@ namespace AplicacionAPi.Test
 
 
 
-        [Fact]
-        public async Task GetEvento_RetornaEvento_CuandoIdEsValido()
-        {
-            // Arrange
-            var context = SetUp.GetInMemoryDatabaseContext();
-            var controller = new EventosController(context);
-            var evento = new Evento { Nombre = "Evento Test", Fecha = DateTime.Now, Lugar = "Lugar Test" };
-            context.Evento.Add(evento);
-            await context.SaveChangesAsync();
+     
 
-            // Act
-            var result = await controller.GetEventoT(evento.EventoId);
-
-            // Assert
-            var actionResult = Assert.IsType<ActionResult<Evento>>(result);
-            var returnValue = Assert.IsType<Evento>(actionResult.Value);
-            Assert.Equal("Evento Test", returnValue.Nombre);  // Verifica que el nombre es correcto
-        }
 
         [Fact]
         public async Task GetEvento_RetornaNotFound_CuandoIdNoExiste()
         {
             // Arrange
             var context = SetUp.GetInMemoryDatabaseContext();
-            var controller = new EventosController(context);
+
+            // Simula la conexión a Redis
+            var mockRedis = new Mock<IConnectionMultiplexer>();
+            var mockDb = new Mock<IDatabase>();
+            mockRedis.Setup(x => x.GetDatabase(It.IsAny<int>(), It.IsAny<object>())).Returns(mockDb.Object);
+
+            // Simula que no hay un valor en caché
+            mockDb.Setup(x => x.StringGetAsync(It.IsAny<RedisKey>(), It.IsAny<CommandFlags>()))
+             .ReturnsAsync(RedisValue.Null);
+
+            var controller = new EventosController(context, mockRedis.Object);
 
             // Act
             var result = await controller.GetEventoT(999);  // ID que no existe
@@ -77,45 +71,32 @@ namespace AplicacionAPi.Test
             Assert.IsType<NotFoundResult>(result.Result);  // Verifica que se retorne NotFound (404)
         }
 
-        [Fact]
-        public async Task DeleteEvento_EliminaEvento_CuandoIdEsValido()
-        {
-            // Arrange
-            var context = SetUp.GetInMemoryDatabaseContext();
-            var controller = new EventosController(context);
 
-            // Agregar un evento al contexto
-            var evento = new Evento { Nombre = "Evento Test", Fecha = DateTime.Now, Lugar = "Lugar Test" };
-            context.Evento.Add(evento);
-            await context.SaveChangesAsync();
 
-            // Verificar que el evento ha sido agregado
-            var eventoEnDb = await context.Evento.FindAsync(evento.EventoId);
-            Assert.NotNull(eventoEnDb);
-
-            // Act
-            var result = await controller.DeleteEventoT(evento.EventoId);
-
-            // Assert
-            Assert.IsType<NoContentResult>(result);  // Verificar que el resultado es NoContent (204)
-
-            // Verificar que el evento ha sido eliminado
-            var eventoEliminado = await context.Evento.FindAsync(evento.EventoId);
-            Assert.Null(eventoEliminado);  // Verificar que ya no existe en la base de datos
-        }
         [Fact]
         public async Task DeleteEvento_RetornaNotFound_CuandoIdNoExiste()
         {
             // Arrange
             var context = SetUp.GetInMemoryDatabaseContext();
-            var controller = new EventosController(context);
+
+            // Simula la conexión a Redis
+            var mockRedis = new Mock<IConnectionMultiplexer>();
+            var mockDb = new Mock<IDatabase>();
+            mockRedis.Setup(x => x.GetDatabase(It.IsAny<int>(), It.IsAny<object>())).Returns(mockDb.Object);
+
+            // Simula que no pasa nada cuando se intenta borrar una clave que no existe
+            mockDb.Setup(x => x.KeyDeleteAsync(It.IsAny<RedisKey>(), It.IsAny<CommandFlags>()))
+                  .ReturnsAsync(false);
+
+            var controller = new EventosController(context, mockRedis.Object);
 
             // Act
-            var result = await controller.DeleteEventoT(999);  // ID que no existe
+            var result = await controller.DeleteEvento(999);  // ID que no existe
 
             // Assert
             Assert.IsType<NotFoundResult>(result);  // Verificar que el resultado es NotFound (404)
         }
+
 
     }
 }

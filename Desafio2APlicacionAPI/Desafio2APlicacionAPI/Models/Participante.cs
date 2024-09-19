@@ -1,9 +1,11 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.Text.Json.Serialization;
 
 namespace Desafio2APlicacionAPI.Models
 {
     public class Participante
     {
+        [Key]
         public int ParticipanteId { get; set; }
 
         [Required, StringLength(50, MinimumLength = 3)]
@@ -14,7 +16,8 @@ namespace Desafio2APlicacionAPI.Models
 
         [Required]
         public int EventoId { get; set; }
-        public Evento Evento { get; set; }
+        [JsonIgnore]
+        public Evento? Evento { get; set; }
     }
 
 }

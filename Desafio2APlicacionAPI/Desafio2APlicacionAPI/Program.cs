@@ -1,5 +1,6 @@
 using Desafio2APlicacionAPI.Models;
 using Microsoft.EntityFrameworkCore;
+using Ocelot.Values;
 using StackExchange.Redis;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -42,7 +43,10 @@ builder.Services.AddDbContext<AppDbContext>(options =>
                 errorNumbersToAdd: null); // Errores específicos que dispararán los reintentos (null para todos los errores transitorios)
         }
     ));
-
+builder.Services.AddControllers().AddJsonOptions(options =>
+{
+    options.JsonSerializerOptions.ReferenceHandler = System.Text.Json.Serialization.ReferenceHandler.Preserve;
+});
 builder.Services.AddSwaggerGen(options =>
 {
     options.ResolveConflictingActions(apiDescriptions => apiDescriptions.First());

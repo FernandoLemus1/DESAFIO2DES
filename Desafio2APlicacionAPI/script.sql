@@ -1,0 +1,3 @@
+﻿SET IDENTITY_INSERT Evento ON;
+
+SET IDENTITY_INSERT Participante ON;

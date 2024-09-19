@@ -4,6 +4,7 @@ namespace Desafio2APlicacionAPI.Models
 {
     public class Evento
     {
+        [Key]
         public int EventoId { get; set; }
 
         [Required, StringLength(100, MinimumLength = 5)]

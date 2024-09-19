@@ -4,6 +4,7 @@ namespace Desafio2APlicacionAPI.Models
 {
     public class Organizador
     {
+        [Key]
         public int OrganizadorId { get; set; }
 
         [Required, StringLength(50, MinimumLength = 3)]

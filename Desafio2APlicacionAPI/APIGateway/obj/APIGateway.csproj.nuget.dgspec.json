@@ -1,20 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Fernando\\Documents\\Tareas Universidad\\2024\\DES\\PArcial 2\\DESAFIO2DES\\Desafio2APlicacionAPI\\APIGateway\\APIGateway.csproj": {}
+    "C:\\Users\\carlo\\OneDrive\\Escritorio\\DES\\DESAFIO2DES\\Desafio2APlicacionAPI\\APIGateway\\APIGateway.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Fernando\\Documents\\Tareas Universidad\\2024\\DES\\PArcial 2\\DESAFIO2DES\\Desafio2APlicacionAPI\\APIGateway\\APIGateway.csproj": {
+    "C:\\Users\\carlo\\OneDrive\\Escritorio\\DES\\DESAFIO2DES\\Desafio2APlicacionAPI\\APIGateway\\APIGateway.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Fernando\\Documents\\Tareas Universidad\\2024\\DES\\PArcial 2\\DESAFIO2DES\\Desafio2APlicacionAPI\\APIGateway\\APIGateway.csproj",
+        "projectUniqueName": "C:\\Users\\carlo\\OneDrive\\Escritorio\\DES\\DESAFIO2DES\\Desafio2APlicacionAPI\\APIGateway\\APIGateway.csproj",
         "projectName": "APIGateway",
-        "projectPath": "C:\\Users\\Fernando\\Documents\\Tareas Universidad\\2024\\DES\\PArcial 2\\DESAFIO2DES\\Desafio2APlicacionAPI\\APIGateway\\APIGateway.csproj",
-        "packagesPath": "C:\\Users\\Fernando\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Fernando\\Documents\\Tareas Universidad\\2024\\DES\\PArcial 2\\DESAFIO2DES\\Desafio2APlicacionAPI\\APIGateway\\obj\\",
+        "projectPath": "C:\\Users\\carlo\\OneDrive\\Escritorio\\DES\\DESAFIO2DES\\Desafio2APlicacionAPI\\APIGateway\\APIGateway.csproj",
+        "packagesPath": "C:\\Users\\carlo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\carlo\\OneDrive\\Escritorio\\DES\\DESAFIO2DES\\Desafio2APlicacionAPI\\APIGateway\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Fernando\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\carlo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

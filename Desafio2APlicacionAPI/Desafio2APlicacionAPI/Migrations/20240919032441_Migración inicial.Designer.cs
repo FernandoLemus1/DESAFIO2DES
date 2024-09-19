@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Desafio2APlicacionAPI.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20240918044155_Migración inicial")]
+    [Migration("20240919032441_Migración inicial")]
     partial class Migracióninicial
     {
         /// <inheritdoc />

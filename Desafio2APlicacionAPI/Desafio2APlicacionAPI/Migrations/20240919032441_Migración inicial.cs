@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace Desafio2APlicacionAPI.Migrations
 {
     /// <inheritdoc />
-    public partial class inicil : Migration
+    public partial class Migracióninicial : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)

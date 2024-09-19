@@ -20,11 +20,7 @@ namespace Desafio2APlicacionAPI.Controllers
             _context = context ?? throw new ArgumentNullException(nameof(context));
             _redis = redis ?? throw new ArgumentNullException(nameof(redis));
         }
-        public EventosController(AppDbContext context)
-        {
-            _context = context ?? throw new ArgumentNullException(nameof(context));
-            
-        }
+      
 
         // GET: api/Eventos
         [HttpGet]
@@ -39,7 +35,13 @@ namespace Desafio2APlicacionAPI.Controllers
                 return JsonSerializer.Deserialize<List<Evento>>(eventosCache);
             }
 
-            var eventos = await _context.Evento.ToListAsync();
+            // Incluye las relaciones de Participantes y Organizadores en la consulta
+            var eventos = await _context.Evento
+                                        .Include(e => e.Participantes) // Carga los participantes
+                                        .Include(e => e.Organizadores) // Carga los organizadores
+                                        .ToListAsync();
+
+
             await db.StringSetAsync(cacheKey, JsonSerializer.Serialize(eventos), TimeSpan.FromMinutes(10));
             return eventos;
         }
@@ -102,13 +104,36 @@ namespace Desafio2APlicacionAPI.Controllers
             return NoContent();
         }
 
- 
+
 
         // POST: api/Eventos
         [HttpPost]
         public async Task<ActionResult<Evento>> PostEvento(Evento evento)
         {
+            // Guardar el evento primero
             _context.Evento.Add(evento);
+            await _context.SaveChangesAsync(); // EventoId se genera aquí
+
+            // Ahora, asignar el EventoId a los participantes y organizadores
+            if (evento.Participantes != null && evento.Participantes.Any())
+            {
+                foreach (var participante in evento.Participantes)
+                {
+                    participante.EventoId = evento.EventoId; // Asignar el EventoId generado
+                    _context.Participante.Add(participante);
+                }
+            }
+
+            if (evento.Organizadores != null && evento.Organizadores.Any())
+            {
+                foreach (var organizador in evento.Organizadores)
+                {
+                    organizador.EventoId = evento.EventoId; // Asignar el EventoId generado
+                    _context.Organizador.Add(organizador);
+                }
+            }
+
+            // Guardar los cambios de participantes y organizadores
             await _context.SaveChangesAsync();
 
             var db = _redis.GetDatabase();
@@ -116,8 +141,8 @@ namespace Desafio2APlicacionAPI.Controllers
 
             return CreatedAtAction("GetEvento", new { id = evento.EventoId }, evento);
         }
-        
-       
+
+
 
         // DELETE: api/Eventos/5
         [HttpDelete("{id}")]

@@ -3,32 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\carlo\\OneDrive\\Escritorio\\DES\\DESAFIO2DES\\Desafio2APlicacionAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A30A7D49-856D-460A-A31A-B5C0D548F5B9}|Desafio2APlicacionAPI\\Desafio2APlicacionAPI.csproj|c:\\users\\carlo\\onedrive\\escritorio\\des\\desafio2des\\desafio2aplicacionapi\\desafio2aplicacionapi\\controllers\\participantescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A30A7D49-856D-460A-A31A-B5C0D548F5B9}|Desafio2APlicacionAPI\\Desafio2APlicacionAPI.csproj|solutionrelative:desafio2aplicacionapi\\controllers\\participantescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A30A7D49-856D-460A-A31A-B5C0D548F5B9}|Desafio2APlicacionAPI\\Desafio2APlicacionAPI.csproj|c:\\users\\carlo\\onedrive\\escritorio\\des\\desafio2des\\desafio2aplicacionapi\\desafio2aplicacionapi\\controllers\\eventoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A30A7D49-856D-460A-A31A-B5C0D548F5B9}|Desafio2APlicacionAPI\\Desafio2APlicacionAPI.csproj|solutionrelative:desafio2aplicacionapi\\controllers\\eventoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A30A7D49-856D-460A-A31A-B5C0D548F5B9}|Desafio2APlicacionAPI\\Desafio2APlicacionAPI.csproj|c:\\users\\carlo\\onedrive\\escritorio\\des\\desafio2des\\desafio2aplicacionapi\\desafio2aplicacionapi\\controllers\\organizadorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A30A7D49-856D-460A-A31A-B5C0D548F5B9}|Desafio2APlicacionAPI\\Desafio2APlicacionAPI.csproj|solutionrelative:desafio2aplicacionapi\\controllers\\organizadorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A30A7D49-856D-460A-A31A-B5C0D548F5B9}|Desafio2APlicacionAPI\\Desafio2APlicacionAPI.csproj|c:\\users\\carlo\\onedrive\\escritorio\\des\\desafio2des\\desafio2aplicacionapi\\desafio2aplicacionapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A30A7D49-856D-460A-A31A-B5C0D548F5B9}|Desafio2APlicacionAPI\\Desafio2APlicacionAPI.csproj|solutionrelative:desafio2aplicacionapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{83297E85-1DB1-43E6-86FC-1F8BD19D7CC0}|AplicacionAPi.Test\\AplicacionAPi.Test.csproj|c:\\users\\carlo\\onedrive\\escritorio\\des\\desafio2des\\desafio2aplicacionapi\\aplicacionapi.test\\eventocontrollertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{83297E85-1DB1-43E6-86FC-1F8BD19D7CC0}|AplicacionAPi.Test\\AplicacionAPi.Test.csproj|solutionrelative:aplicacionapi.test\\eventocontrollertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{314068E4-4A8A-47A0-88BA-650A857BD52E}|APIGateway\\APIGateway.csproj|c:\\users\\carlo\\onedrive\\escritorio\\des\\desafio2des\\desafio2aplicacionapi\\apigateway\\ocelot.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{314068E4-4A8A-47A0-88BA-650A857BD52E}|APIGateway\\APIGateway.csproj|solutionrelative:apigateway\\ocelot.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{314068E4-4A8A-47A0-88BA-650A857BD52E}|APIGateway\\APIGateway.csproj|c:\\users\\carlo\\onedrive\\escritorio\\des\\desafio2des\\desafio2aplicacionapi\\apigateway\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{314068E4-4A8A-47A0-88BA-650A857BD52E}|APIGateway\\APIGateway.csproj|solutionrelative:apigateway\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{83297E85-1DB1-43E6-86FC-1F8BD19D7CC0}|AplicacionAPi.Test\\AplicacionAPi.Test.csproj|c:\\users\\carlo\\onedrive\\escritorio\\des\\desafio2des\\desafio2aplicacionapi\\aplicacionapi.test\\aplicacionapi.test.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{83297E85-1DB1-43E6-86FC-1F8BD19D7CC0}|AplicacionAPi.Test\\AplicacionAPi.Test.csproj|solutionrelative:aplicacionapi.test\\aplicacionapi.test.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,102 +18,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\carlo\\OneDrive\\Escritorio\\DES\\DESAFIO2DES\\Desafio2APlicacionAPI\\Desafio2APlicacionAPI\\Program.cs",
-              "RelativeDocumentMoniker": "Desafio2APlicacionAPI\\Program.cs",
-              "ToolTip": "C:\\Users\\carlo\\OneDrive\\Escritorio\\DES\\DESAFIO2DES\\Desafio2APlicacionAPI\\Desafio2APlicacionAPI\\Program.cs",
-              "RelativeToolTip": "Desafio2APlicacionAPI\\Program.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T05:35:21.862Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "EventoControllerTest.cs",
-              "DocumentMoniker": "C:\\Users\\carlo\\OneDrive\\Escritorio\\DES\\DESAFIO2DES\\Desafio2APlicacionAPI\\AplicacionAPi.Test\\EventoControllerTest.cs",
-              "RelativeDocumentMoniker": "AplicacionAPi.Test\\EventoControllerTest.cs",
-              "ToolTip": "C:\\Users\\carlo\\OneDrive\\Escritorio\\DES\\DESAFIO2DES\\Desafio2APlicacionAPI\\AplicacionAPi.Test\\EventoControllerTest.cs",
-              "RelativeToolTip": "AplicacionAPi.Test\\EventoControllerTest.cs",
-              "ViewState": "AQIAAFMAAAAAAAAAAAAIwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T05:34:54.36Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\carlo\\OneDrive\\Escritorio\\DES\\DESAFIO2DES\\Desafio2APlicacionAPI\\APIGateway\\Program.cs",
-              "RelativeDocumentMoniker": "APIGateway\\Program.cs",
-              "ToolTip": "C:\\Users\\carlo\\OneDrive\\Escritorio\\DES\\DESAFIO2DES\\Desafio2APlicacionAPI\\APIGateway\\Program.cs",
-              "RelativeToolTip": "APIGateway\\Program.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAWwBIAAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T05:28:59.795Z",
+              "DocumentIndex": 1,
+              "Title": "AplicacionAPi.Test",
+              "DocumentMoniker": "C:\\Users\\carlo\\OneDrive\\Escritorio\\DES\\DESAFIO2DES\\Desafio2APlicacionAPI\\AplicacionAPi.Test\\AplicacionAPi.Test.csproj",
+              "RelativeDocumentMoniker": "AplicacionAPi.Test\\AplicacionAPi.Test.csproj",
+              "ToolTip": "C:\\Users\\carlo\\OneDrive\\Escritorio\\DES\\DESAFIO2DES\\Desafio2APlicacionAPI\\AplicacionAPi.Test\\AplicacionAPi.Test.csproj",
+              "RelativeToolTip": "AplicacionAPi.Test\\AplicacionAPi.Test.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-19T01:09:39.807Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ParticipantesController.cs",
-              "DocumentMoniker": "C:\\Users\\carlo\\OneDrive\\Escritorio\\DES\\DESAFIO2DES\\Desafio2APlicacionAPI\\Desafio2APlicacionAPI\\Controllers\\ParticipantesController.cs",
-              "RelativeDocumentMoniker": "Desafio2APlicacionAPI\\Controllers\\ParticipantesController.cs",
-              "ToolTip": "C:\\Users\\carlo\\OneDrive\\Escritorio\\DES\\DESAFIO2DES\\Desafio2APlicacionAPI\\Desafio2APlicacionAPI\\Controllers\\ParticipantesController.cs",
-              "RelativeToolTip": "Desafio2APlicacionAPI\\Controllers\\ParticipantesController.cs",
-              "ViewState": "AQIAAG0AAAAAAAAAAAAwwHwAAAA5AAAA",
+              "Title": "EventoControllerTest.cs",
+              "DocumentMoniker": "C:\\Users\\carlo\\OneDrive\\Escritorio\\DES\\DESAFIO2DES\\Desafio2APlicacionAPI\\AplicacionAPi.Test\\EventoControllerTest.cs",
+              "RelativeDocumentMoniker": "AplicacionAPi.Test\\EventoControllerTest.cs",
+              "ToolTip": "C:\\Users\\carlo\\OneDrive\\Escritorio\\DES\\DESAFIO2DES\\Desafio2APlicacionAPI\\AplicacionAPi.Test\\EventoControllerTest.cs",
+              "RelativeToolTip": "AplicacionAPi.Test\\EventoControllerTest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T05:22:44.324Z",
+              "WhenOpened": "2024-09-19T01:06:51.565Z",
               "EditorCaption": ""
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "OrganizadoresController.cs",
-              "DocumentMoniker": "C:\\Users\\carlo\\OneDrive\\Escritorio\\DES\\DESAFIO2DES\\Desafio2APlicacionAPI\\Desafio2APlicacionAPI\\Controllers\\OrganizadoresController.cs",
-              "RelativeDocumentMoniker": "Desafio2APlicacionAPI\\Controllers\\OrganizadoresController.cs",
-              "ToolTip": "C:\\Users\\carlo\\OneDrive\\Escritorio\\DES\\DESAFIO2DES\\Desafio2APlicacionAPI\\Desafio2APlicacionAPI\\Controllers\\OrganizadoresController.cs",
-              "RelativeToolTip": "Desafio2APlicacionAPI\\Controllers\\OrganizadoresController.cs",
-              "ViewState": "AQIAAGUAAAAAAAAAAAAUwHcAAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T05:22:35.532Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "EventosController.cs",
-              "DocumentMoniker": "C:\\Users\\carlo\\OneDrive\\Escritorio\\DES\\DESAFIO2DES\\Desafio2APlicacionAPI\\Desafio2APlicacionAPI\\Controllers\\EventosController.cs",
-              "RelativeDocumentMoniker": "Desafio2APlicacionAPI\\Controllers\\EventosController.cs",
-              "ToolTip": "C:\\Users\\carlo\\OneDrive\\Escritorio\\DES\\DESAFIO2DES\\Desafio2APlicacionAPI\\Desafio2APlicacionAPI\\Controllers\\EventosController.cs",
-              "RelativeToolTip": "Desafio2APlicacionAPI\\Controllers\\EventosController.cs",
-              "ViewState": "AQIAAGQAAAAAAAAAAAAAAG4AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T05:22:17.102Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ocelot.json",
-              "DocumentMoniker": "C:\\Users\\carlo\\OneDrive\\Escritorio\\DES\\DESAFIO2DES\\Desafio2APlicacionAPI\\APIGateway\\ocelot.json",
-              "RelativeDocumentMoniker": "APIGateway\\ocelot.json",
-              "ToolTip": "C:\\Users\\carlo\\OneDrive\\Escritorio\\DES\\DESAFIO2DES\\Desafio2APlicacionAPI\\APIGateway\\ocelot.json",
-              "RelativeToolTip": "APIGateway\\ocelot.json",
-              "ViewState": "AQIAAGMAAAAAAAAAAAAAAGUAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-09-18T04:56:22.11Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             }
           ]
         }

@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\carlo\\OneDrive\\Escritorio\\DES\\DESAFIO2DES\\Desafio2APlicacionAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A30A7D49-856D-460A-A31A-B5C0D548F5B9}|Desafio2APlicacionAPI\\Desafio2APlicacionAPI.csproj|c:\\users\\carlo\\onedrive\\escritorio\\des\\desafio2des\\desafio2aplicacionapi\\desafio2aplicacionapi\\models\\evento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A30A7D49-856D-460A-A31A-B5C0D548F5B9}|Desafio2APlicacionAPI\\Desafio2APlicacionAPI.csproj|solutionrelative:desafio2aplicacionapi\\models\\evento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A30A7D49-856D-460A-A31A-B5C0D548F5B9}|Desafio2APlicacionAPI\\Desafio2APlicacionAPI.csproj|c:\\users\\carlo\\onedrive\\escritorio\\des\\desafio2des\\desafio2aplicacionapi\\desafio2aplicacionapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A30A7D49-856D-460A-A31A-B5C0D548F5B9}|Desafio2APlicacionAPI\\Desafio2APlicacionAPI.csproj|solutionrelative:desafio2aplicacionapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A30A7D49-856D-460A-A31A-B5C0D548F5B9}|Desafio2APlicacionAPI\\Desafio2APlicacionAPI.csproj|c:\\users\\carlo\\onedrive\\escritorio\\des\\desafio2des\\desafio2aplicacionapi\\desafio2aplicacionapi\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A30A7D49-856D-460A-A31A-B5C0D548F5B9}|Desafio2APlicacionAPI\\Desafio2APlicacionAPI.csproj|solutionrelative:desafio2aplicacionapi\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A30A7D49-856D-460A-A31A-B5C0D548F5B9}|Desafio2APlicacionAPI\\Desafio2APlicacionAPI.csproj|c:\\users\\carlo\\onedrive\\escritorio\\des\\desafio2des\\desafio2aplicacionapi\\desafio2aplicacionapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A30A7D49-856D-460A-A31A-B5C0D548F5B9}|Desafio2APlicacionAPI\\Desafio2APlicacionAPI.csproj|solutionrelative:desafio2aplicacionapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A30A7D49-856D-460A-A31A-B5C0D548F5B9}|Desafio2APlicacionAPI\\Desafio2APlicacionAPI.csproj|c:\\users\\carlo\\onedrive\\escritorio\\des\\desafio2des\\desafio2aplicacionapi\\desafio2aplicacionapi\\models\\participante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A30A7D49-856D-460A-A31A-B5C0D548F5B9}|Desafio2APlicacionAPI\\Desafio2APlicacionAPI.csproj|solutionrelative:desafio2aplicacionapi\\models\\participante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A30A7D49-856D-460A-A31A-B5C0D548F5B9}|Desafio2APlicacionAPI\\Desafio2APlicacionAPI.csproj|c:\\users\\carlo\\onedrive\\escritorio\\des\\desafio2des\\desafio2aplicacionapi\\desafio2aplicacionapi\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A30A7D49-856D-460A-A31A-B5C0D548F5B9}|Desafio2APlicacionAPI\\Desafio2APlicacionAPI.csproj|solutionrelative:desafio2aplicacionapi\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A30A7D49-856D-460A-A31A-B5C0D548F5B9}|Desafio2APlicacionAPI\\Desafio2APlicacionAPI.csproj|c:\\users\\carlo\\onedrive\\escritorio\\des\\desafio2des\\desafio2aplicacionapi\\desafio2aplicacionapi\\controllers\\eventoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A30A7D49-856D-460A-A31A-B5C0D548F5B9}|Desafio2APlicacionAPI\\Desafio2APlicacionAPI.csproj|solutionrelative:desafio2aplicacionapi\\controllers\\eventoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A30A7D49-856D-460A-A31A-B5C0D548F5B9}|Desafio2APlicacionAPI\\Desafio2APlicacionAPI.csproj|c:\\users\\carlo\\onedrive\\escritorio\\des\\desafio2des\\desafio2aplicacionapi\\desafio2aplicacionapi\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A30A7D49-856D-460A-A31A-B5C0D548F5B9}|Desafio2APlicacionAPI\\Desafio2APlicacionAPI.csproj|solutionrelative:desafio2aplicacionapi\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A30A7D49-856D-460A-A31A-B5C0D548F5B9}|Desafio2APlicacionAPI\\Desafio2APlicacionAPI.csproj|c:\\users\\carlo\\onedrive\\escritorio\\des\\desafio2des\\desafio2aplicacionapi\\desafio2aplicacionapi\\controllers\\participantescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A30A7D49-856D-460A-A31A-B5C0D548F5B9}|Desafio2APlicacionAPI\\Desafio2APlicacionAPI.csproj|solutionrelative:desafio2aplicacionapi\\controllers\\participantescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{314068E4-4A8A-47A0-88BA-650A857BD52E}|APIGateway\\APIGateway.csproj|c:\\users\\carlo\\onedrive\\escritorio\\des\\desafio2des\\desafio2aplicacionapi\\apigateway\\ocelot.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{314068E4-4A8A-47A0-88BA-650A857BD52E}|APIGateway\\APIGateway.csproj|solutionrelative:apigateway\\ocelot.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,67 +38,67 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\carlo\\OneDrive\\Escritorio\\DES\\DESAFIO2DES\\Desafio2APlicacionAPI\\Desafio2APlicacionAPI\\Models\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "Desafio2APlicacionAPI\\Models\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\carlo\\OneDrive\\Escritorio\\DES\\DESAFIO2DES\\Desafio2APlicacionAPI\\Desafio2APlicacionAPI\\Models\\AppDbContext.cs",
-              "RelativeToolTip": "Desafio2APlicacionAPI\\Models\\AppDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-19T04:34:00.321Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Participante.cs",
-              "DocumentMoniker": "C:\\Users\\carlo\\OneDrive\\Escritorio\\DES\\DESAFIO2DES\\Desafio2APlicacionAPI\\Desafio2APlicacionAPI\\Models\\Participante.cs",
-              "RelativeDocumentMoniker": "Desafio2APlicacionAPI\\Models\\Participante.cs",
-              "ToolTip": "C:\\Users\\carlo\\OneDrive\\Escritorio\\DES\\DESAFIO2DES\\Desafio2APlicacionAPI\\Desafio2APlicacionAPI\\Models\\Participante.cs",
-              "RelativeToolTip": "Desafio2APlicacionAPI\\Models\\Participante.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAUAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-19T04:33:55.491Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Evento.cs",
-              "DocumentMoniker": "C:\\Users\\carlo\\OneDrive\\Escritorio\\DES\\DESAFIO2DES\\Desafio2APlicacionAPI\\Desafio2APlicacionAPI\\Models\\Evento.cs",
-              "RelativeDocumentMoniker": "Desafio2APlicacionAPI\\Models\\Evento.cs",
-              "ToolTip": "C:\\Users\\carlo\\OneDrive\\Escritorio\\DES\\DESAFIO2DES\\Desafio2APlicacionAPI\\Desafio2APlicacionAPI\\Models\\Evento.cs",
-              "RelativeToolTip": "Desafio2APlicacionAPI\\Models\\Evento.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAUAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-19T04:33:52.749Z",
+              "Title": "docker-compose.yml",
+              "DocumentMoniker": "C:\\Users\\carlo\\OneDrive\\Escritorio\\DES\\DESAFIO2DES\\Desafio2APlicacionAPI\\Desafio2APlicacionAPI\\docker-compose.yml",
+              "RelativeDocumentMoniker": "Desafio2APlicacionAPI\\docker-compose.yml",
+              "ToolTip": "C:\\Users\\carlo\\OneDrive\\Escritorio\\DES\\DESAFIO2DES\\Desafio2APlicacionAPI\\Desafio2APlicacionAPI\\docker-compose.yml",
+              "RelativeToolTip": "Desafio2APlicacionAPI\\docker-compose.yml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2024-09-19T04:56:04.218Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "EventosController.cs",
-              "DocumentMoniker": "C:\\Users\\carlo\\OneDrive\\Escritorio\\DES\\DESAFIO2DES\\Desafio2APlicacionAPI\\Desafio2APlicacionAPI\\Controllers\\EventosController.cs",
-              "RelativeDocumentMoniker": "Desafio2APlicacionAPI\\Controllers\\EventosController.cs",
-              "ToolTip": "C:\\Users\\carlo\\OneDrive\\Escritorio\\DES\\DESAFIO2DES\\Desafio2APlicacionAPI\\Desafio2APlicacionAPI\\Controllers\\EventosController.cs",
-              "RelativeToolTip": "Desafio2APlicacionAPI\\Controllers\\EventosController.cs",
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "C:\\Users\\carlo\\OneDrive\\Escritorio\\DES\\DESAFIO2DES\\Desafio2APlicacionAPI\\Desafio2APlicacionAPI\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "Desafio2APlicacionAPI\\WeatherForecast.cs",
+              "ToolTip": "C:\\Users\\carlo\\OneDrive\\Escritorio\\DES\\DESAFIO2DES\\Desafio2APlicacionAPI\\Desafio2APlicacionAPI\\WeatherForecast.cs",
+              "RelativeToolTip": "Desafio2APlicacionAPI\\WeatherForecast.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-19T04:33:51.1Z",
+              "WhenOpened": "2024-09-19T04:56:02.678Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\carlo\\OneDrive\\Escritorio\\DES\\DESAFIO2DES\\Desafio2APlicacionAPI\\Desafio2APlicacionAPI\\Program.cs",
+              "RelativeDocumentMoniker": "Desafio2APlicacionAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\carlo\\OneDrive\\Escritorio\\DES\\DESAFIO2DES\\Desafio2APlicacionAPI\\Desafio2APlicacionAPI\\Program.cs",
+              "RelativeToolTip": "Desafio2APlicacionAPI\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T04:56:01.842Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "ParticipantesController.cs",
-              "DocumentMoniker": "C:\\Users\\carlo\\OneDrive\\Escritorio\\DES\\DESAFIO2DES\\Desafio2APlicacionAPI\\Desafio2APlicacionAPI\\Controllers\\ParticipantesController.cs",
-              "RelativeDocumentMoniker": "Desafio2APlicacionAPI\\Controllers\\ParticipantesController.cs",
-              "ToolTip": "C:\\Users\\carlo\\OneDrive\\Escritorio\\DES\\DESAFIO2DES\\Desafio2APlicacionAPI\\Desafio2APlicacionAPI\\Controllers\\ParticipantesController.cs",
-              "RelativeToolTip": "Desafio2APlicacionAPI\\Controllers\\ParticipantesController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-19T04:33:07.437Z",
+              "Title": "ocelot.json",
+              "DocumentMoniker": "C:\\Users\\carlo\\OneDrive\\Escritorio\\DES\\DESAFIO2DES\\Desafio2APlicacionAPI\\APIGateway\\ocelot.json",
+              "RelativeDocumentMoniker": "APIGateway\\ocelot.json",
+              "ToolTip": "C:\\Users\\carlo\\OneDrive\\Escritorio\\DES\\DESAFIO2DES\\Desafio2APlicacionAPI\\APIGateway\\ocelot.json",
+              "RelativeToolTip": "APIGateway\\ocelot.json",
+              "ViewState": "AQIAAFABAAAAAAAAAAAwwFABAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-19T04:45:13.77Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\carlo\\OneDrive\\Escritorio\\DES\\DESAFIO2DES\\Desafio2APlicacionAPI\\Desafio2APlicacionAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "Desafio2APlicacionAPI\\appsettings.json",
+              "ToolTip": "C:\\Users\\carlo\\OneDrive\\Escritorio\\DES\\DESAFIO2DES\\Desafio2APlicacionAPI\\Desafio2APlicacionAPI\\appsettings.json",
+              "RelativeToolTip": "Desafio2APlicacionAPI\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-19T04:43:10.9Z",
               "EditorCaption": ""
             }
           ]

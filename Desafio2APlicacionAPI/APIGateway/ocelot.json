@@ -9,6 +9,13 @@
           "Port": 5073
         }
       ],
+      "RateLimitOptions": {
+        "ClientWhitelist": [],
+        "EnableRateLimiting": true,
+        "Period": "1m",
+        "PeriodTimespan": 60,
+        "Limit": 5
+      },
       "UpstreamPathTemplate": "/",
       "UpstreamHttpMethod": [ "Get" ]
     },
@@ -23,6 +30,13 @@
           "Port": 5073
         }
       ],
+      "RateLimitOptions": {
+        "ClientWhitelist": [],
+        "EnableRateLimiting": true,
+        "Period": "1m",
+        "PeriodTimespan": 60,
+        "Limit": 5
+      },
       "UpstreamHttpMethod": [ "Get" ],
       "DownstreamHttpMethod": "Get",
       "SwaggerKey": "Eventos"
@@ -37,6 +51,13 @@
           "Port": 5073
         }
       ],
+      "RateLimitOptions": {
+        "ClientWhitelist": [],
+        "EnableRateLimiting": true,
+        "Period": "1m",
+        "PeriodTimespan": 60,
+        "Limit": 5
+      },
       "UpstreamHttpMethod": [ "Get" ],
       "DownstreamHttpMethod": "Get",
       "SwaggerKey": "Eventos"
@@ -51,6 +72,13 @@
           "Port": 5073
         }
       ],
+      "RateLimitOptions": {
+        "ClientWhitelist": [],
+        "EnableRateLimiting": true,
+        "Period": "1m",
+        "PeriodTimespan": 60,
+        "Limit": 5
+      },
       "UpstreamHttpMethod": [ "Post" ],
       "DownstreamHttpMethod": "Post",
       "SwaggerKey": "Eventos"
@@ -65,6 +93,13 @@
           "Port": 5073
         }
       ],
+      "RateLimitOptions": {
+        "ClientWhitelist": [],
+        "EnableRateLimiting": true,
+        "Period": "1m",
+        "PeriodTimespan": 60,
+        "Limit": 5
+      },
       "UpstreamHttpMethod": [ "Put" ],
       "DownstreamHttpMethod": "Put",
       "SwaggerKey": "Eventos"
@@ -79,6 +114,13 @@
           "Port": 5073
         }
       ],
+      "RateLimitOptions": {
+        "ClientWhitelist": [],
+        "EnableRateLimiting": true,
+        "Period": "1m",
+        "PeriodTimespan": 60,
+        "Limit": 5
+      },
       "UpstreamHttpMethod": [ "Delete" ],
       "DownstreamHttpMethod": "Delete",
       "SwaggerKey": "Eventos"
@@ -95,6 +137,13 @@
           "Port": 5073
         }
       ],
+      "RateLimitOptions": {
+        "ClientWhitelist": [],
+        "EnableRateLimiting": true,
+        "Period": "1m",
+        "PeriodTimespan": 60,
+        "Limit": 5
+      },
       "UpstreamHttpMethod": [ "Get" ],
       "DownstreamHttpMethod": "Get",
       "SwaggerKey": "Participantes"
@@ -109,6 +158,13 @@
           "Port": 5073
         }
       ],
+      "RateLimitOptions": {
+        "ClientWhitelist": [],
+        "EnableRateLimiting": true,
+        "Period": "1m",
+        "PeriodTimespan": 60,
+        "Limit": 5
+      },
       "UpstreamHttpMethod": [ "Get" ],
       "DownstreamHttpMethod": "Get",
       "SwaggerKey": "Participantes"
@@ -123,6 +179,13 @@
           "Port": 5073
         }
       ],
+      "RateLimitOptions": {
+        "ClientWhitelist": [],
+        "EnableRateLimiting": true,
+        "Period": "1m",
+        "PeriodTimespan": 60,
+        "Limit": 5
+      },
       "UpstreamHttpMethod": [ "Post" ],
       "DownstreamHttpMethod": "Post",
       "SwaggerKey": "Participantes"
@@ -137,6 +200,13 @@
           "Port": 5073
         }
       ],
+      "RateLimitOptions": {
+        "ClientWhitelist": [],
+        "EnableRateLimiting": true,
+        "Period": "1m",
+        "PeriodTimespan": 60,
+        "Limit": 5
+      },
       "UpstreamHttpMethod": [ "Put" ],
       "DownstreamHttpMethod": "Put",
       "SwaggerKey": "Participantes"
@@ -151,6 +221,13 @@
           "Port": 5073
         }
       ],
+      "RateLimitOptions": {
+        "ClientWhitelist": [],
+        "EnableRateLimiting": true,
+        "Period": "1m",
+        "PeriodTimespan": 60,
+        "Limit": 5
+      },
       "UpstreamHttpMethod": [ "Delete" ],
       "DownstreamHttpMethod": "Delete",
       "SwaggerKey": "Participantes"
@@ -167,6 +244,13 @@
           "Port": 5073
         }
       ],
+      "RateLimitOptions": {
+        "ClientWhitelist": [],
+        "EnableRateLimiting": true,
+        "Period": "1m",
+        "PeriodTimespan": 60,
+        "Limit": 5
+      },
       "UpstreamHttpMethod": [ "Get" ],
       "DownstreamHttpMethod": "Get",
       "SwaggerKey": "Organizadores"
@@ -181,6 +265,13 @@
           "Port": 5073
         }
       ],
+      "RateLimitOptions": {
+        "ClientWhitelist": [],
+        "EnableRateLimiting": true,
+        "Period": "1m",
+        "PeriodTimespan": 60,
+        "Limit": 5
+      },
       "UpstreamHttpMethod": [ "Get" ],
       "DownstreamHttpMethod": "Get",
       "SwaggerKey": "Organizadores"
@@ -195,6 +286,13 @@
           "Port": 5073
         }
       ],
+      "RateLimitOptions": {
+        "ClientWhitelist": [],
+        "EnableRateLimiting": true,
+        "Period": "1m",
+        "PeriodTimespan": 60,
+        "Limit": 5
+      },
       "UpstreamHttpMethod": [ "Post" ],
       "DownstreamHttpMethod": "Post",
       "SwaggerKey": "Organizadores"
@@ -209,6 +307,13 @@
           "Port": 5073
         }
       ],
+      "RateLimitOptions": {
+        "ClientWhitelist": [],
+        "EnableRateLimiting": true,
+        "Period": "1m",
+        "PeriodTimespan": 60,
+        "Limit": 5
+      },
       "UpstreamHttpMethod": [ "Put" ],
       "DownstreamHttpMethod": "Put",
       "SwaggerKey": "Organizadores"
@@ -223,6 +328,13 @@
           "Port": 5073
         }
       ],
+      "RateLimitOptions": {
+        "ClientWhitelist": [],
+        "EnableRateLimiting": true,
+        "Period": "1m",
+        "PeriodTimespan": 60,
+        "Limit": 5
+      },
       "UpstreamHttpMethod": [ "Delete" ],
       "DownstreamHttpMethod": "Delete",
       "SwaggerKey": "Organizadores"

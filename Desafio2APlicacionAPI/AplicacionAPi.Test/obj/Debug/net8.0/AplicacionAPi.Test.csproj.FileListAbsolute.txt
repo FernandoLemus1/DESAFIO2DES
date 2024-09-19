@@ -739,3 +739,4 @@ C:\Users\carlo\OneDrive\Escritorio\DES\DESAFIO2DES\Desafio2APlicacionAPI\Aplicac
 C:\Users\carlo\OneDrive\Escritorio\DES\DESAFIO2DES\Desafio2APlicacionAPI\AplicacionAPi.Test\obj\Debug\net8.0\AplicacionAPi.Test.genruntimeconfig.cache
 C:\Users\carlo\OneDrive\Escritorio\DES\DESAFIO2DES\Desafio2APlicacionAPI\AplicacionAPi.Test\obj\Debug\net8.0\ref\AplicacionAPi.Test.dll
 C:\Users\carlo\OneDrive\Escritorio\DES\DESAFIO2DES\Desafio2APlicacionAPI\AplicacionAPi.Test\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Fernando\Documents\Tareas Universidad\2024\DES\PArcial 2\DESAFIO2DES\Desafio2APlicacionAPI\AplicacionAPi.Test\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll

@@ -65,7 +65,7 @@ namespace AplicacionAPi.Test
             var controller = new EventosController(context, mockRedis.Object);
 
             // Act
-            var result = await controller.GetEventoT(999);  // ID que no existe
+            var result = await controller.GetEvento(999);  // ID que no existe
 
             // Assert
             Assert.IsType<NotFoundResult>(result.Result);  // Verifica que se retorne NotFound (404)

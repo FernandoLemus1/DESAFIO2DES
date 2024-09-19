@@ -87,7 +87,7 @@ namespace AplicacionAPi.Test
             var nuevoParticipante = new Participante { Nombre = "AAA2", Email = "a2@gmail.com", EventoId = 1 };
 
             // Act
-            await controller.PostParticipanteT(nuevoParticipante);
+            await controller.PostParticipante(nuevoParticipante);
             var participantes = await context.Participante.ToListAsync();
 
             // Assert

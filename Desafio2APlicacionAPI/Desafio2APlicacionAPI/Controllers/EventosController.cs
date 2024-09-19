@@ -66,17 +66,7 @@ namespace Desafio2APlicacionAPI.Controllers
             await db.StringSetAsync(cacheKey, JsonSerializer.Serialize(evento), TimeSpan.FromMinutes(10));
             return evento;
         }
-        [HttpGet("{id}")]
-        public async Task<ActionResult<Evento>> GetEventoT(int id)
-        {
        
-            var evento = await _context.Evento.FindAsync(id);
-            if (evento == null)
-            {
-                return NotFound();
-            }
-            return evento;
-        }
 
         // PUT: api/Eventos/5
         [HttpPut("{id}")]
@@ -112,42 +102,7 @@ namespace Desafio2APlicacionAPI.Controllers
             return NoContent();
         }
 
-        [HttpGet]
-        public async Task<IActionResult> PutEventoT(int id, Evento participante)
-        {
-            if (id != participante.EventoId)
-            {
-                return BadRequest("El ID no coincide.");
-            }
-
-            // Desconecta cualquier instancia previa del contexto
-            var participanteExistente = await _context.Participante.AsNoTracking().FirstOrDefaultAsync(p => p.EventoId == id);
-            if (participanteExistente == null)
-            {
-                return NotFound();
-            }
-
-            // Marca la entidad como modificada
-            _context.Entry(participante).State = EntityState.Modified;
-
-            try
-            {
-                await _context.SaveChangesAsync();
-            }
-            catch (DbUpdateConcurrencyException)
-            {
-                if (!EventoExists(id))
-                {
-                    return NotFound();
-                }
-                else
-                {
-                    throw;
-                }
-            }
-
-            return NoContent();
-        }
+ 
 
         // POST: api/Eventos
         [HttpPost]
@@ -161,16 +116,8 @@ namespace Desafio2APlicacionAPI.Controllers
 
             return CreatedAtAction("GetEvento", new { id = evento.EventoId }, evento);
         }
-        [HttpPost]
-        public async Task<ActionResult<Evento>> PostEventoT(Evento evento)
-        {
-            _context.Evento.Add(evento);
-            await _context.SaveChangesAsync();
-
-          
-
-            return CreatedAtAction("GetEvento", new { id = evento.EventoId }, evento);
-        }
+        
+       
 
         // DELETE: api/Eventos/5
         [HttpDelete("{id}")]
@@ -192,20 +139,7 @@ namespace Desafio2APlicacionAPI.Controllers
 
             return NoContent();
         }
-        [HttpDelete("{id}")]
-        public async Task<IActionResult> DeleteEventoT(int id)
-        {
-            var participante = await _context.Evento.FindAsync(id);
-            if (participante == null)
-            {
-                return NotFound();
-            }
-
-            _context.Evento.Remove(participante);
-            await _context.SaveChangesAsync();
-
-            return NoContent();
-        }
+  
 
         private bool EventoExists(int id)
         {

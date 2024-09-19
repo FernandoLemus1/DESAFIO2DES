@@ -11,11 +11,11 @@ public class ParticipantesController : ControllerBase
     private readonly AppDbContext _context;
     private readonly IConnectionMultiplexer _redis;
 
-    public ParticipantesController(AppDbContext context, IConnectionMultiplexer redis)
-    {
-        _context = context ?? throw new ArgumentNullException(nameof(context));
-        _redis = redis ?? throw new ArgumentNullException(nameof(redis));
-    }
+        public ParticipantesController(AppDbContext context, IConnectionMultiplexer redis)
+        {
+            _context = context ?? throw new ArgumentNullException(nameof(context));
+            _redis = redis ?? throw new ArgumentNullException(nameof(redis));
+        }
 
     // GET: api/Participantes
     [HttpGet]

@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.Text.Json.Serialization;
 
 namespace Desafio2APlicacionAPI.Models
 {
@@ -15,8 +16,9 @@ namespace Desafio2APlicacionAPI.Models
 
         [Required, StringLength(100, MinimumLength = 5)]
         public string Lugar { get; set; }
-
+        [JsonIgnore]
         public ICollection<Participante> Participantes { get; set; }=new List<Participante>();
+        [JsonIgnore]
         public ICollection<Organizador> Organizadores { get; set; } = new List<Organizador>();
     }
 }

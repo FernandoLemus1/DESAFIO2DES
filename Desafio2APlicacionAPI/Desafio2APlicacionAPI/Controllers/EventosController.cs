@@ -20,11 +20,7 @@ namespace Desafio2APlicacionAPI.Controllers
             _context = context ?? throw new ArgumentNullException(nameof(context));
             _redis = redis ?? throw new ArgumentNullException(nameof(redis));
         }
-        public EventosController(AppDbContext context)
-        {
-            _context = context ?? throw new ArgumentNullException(nameof(context));
-            
-        }
+     
 
         // GET: api/Eventos
         [HttpGet]
